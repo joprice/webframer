@@ -12,6 +12,7 @@
 		3DDDF1691B27F6F900A0E245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDF1681B27F6F900A0E245 /* Images.xcassets */; };
 		3DDDF16C1B27F6F900A0E245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDDF16A1B27F6F900A0E245 /* Main.storyboard */; };
 		3DDDF1781B27F6F900A0E245 /* webframerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDF1771B27F6F900A0E245 /* webframerTests.swift */; };
+		3DDDF1821B27F79F00A0E245 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDDF1811B27F79F00A0E245 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		3DDDF1711B27F6F900A0E245 /* webframerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webframerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDDF1761B27F6F900A0E245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DDDF1771B27F6F900A0E245 /* webframerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webframerTests.swift; sourceTree = "<group>"; };
+		3DDDF1811B27F79F00A0E245 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDDF1821B27F79F00A0E245 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		3DDDF1561B27F6F900A0E245 = {
 			isa = PBXGroup;
 			children = (
+				3DDDF1811B27F79F00A0E245 /* WebKit.framework */,
 				3DDDF1611B27F6F900A0E245 /* webframer */,
 				3DDDF1741B27F6F900A0E245 /* webframerTests */,
 				3DDDF1601B27F6F900A0E245 /* Products */,
